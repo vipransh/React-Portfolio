@@ -16,7 +16,7 @@ const skills = [
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16  md:px-20 px-4 dark:bg-[#212121]">
+      <div className="my-12 pb-12 md:pt-16  md:px-20 px-4 bg-[#EAF0F1] dark:bg-[#212121]">
         <h1 className="text-center font-bold text-4xl dark:text-white">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -28,11 +28,10 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p className="dark:text-white">
-              Hi, my name is Vipransh Verma and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> Frontend Developer
-              based India.
+              Hi, my name is Vipransh Verma and I am a {" "}
+              <span className="font-bold">{" Frontend Focused Web Developer"}</span>,
+              building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the   
+              <span className="font-bold">{" Projects "}</span> section.
             </p>
             <br />
             <p className="dark:text-white">
@@ -48,14 +47,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p className="dark:text-white">
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+            I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -65,7 +57,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 text-xs md:text-sm px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-teal-500 text-xs md:text-sm px-4 py-2 mr-2 mt-2 text-white rounded font-semibold"
                   >
                     {item.skill}
                   </p>
